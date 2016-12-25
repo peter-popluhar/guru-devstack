@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>test nun</title>
+    <link rel="stylesheet" href="css/main{% if not _dev %}.min{% endif %}.css">
+</head>
+<body>
+    <h1>Hello world2</h1>
+    {% if _dev %}
+        <script src="js/app.js"></script>
+    {% else %}
+        <script src="js/app.min.js"></script>
+    {% endif %}
+</body>
+</html>
