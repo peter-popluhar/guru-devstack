@@ -4,5 +4,6 @@
 // include all bootstrap.js
 //require("bootstrap-sass");
 
-console.log(true);
+import consoleLog from './functions/consoleLog';
 
+consoleLog();
